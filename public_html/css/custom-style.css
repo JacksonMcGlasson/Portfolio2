@@ -1,0 +1,14 @@
+body{
+   background-image: url(http://miriadna.com/desctopwalls/images/max/Space-clouds.jpg);
+}
+div{
+    color: lightskyblue;
+}
+li{
+    color: lightskyblue;
+    font-size: 20px;
+}
+button{
+    height: 40px;
+    width: 100px;
+}
