@@ -12,3 +12,8 @@ button{
     height: 40px;
     width: 100px;
 }
+#numbers {
+    background-color: blue;
+    width: 300px;
+    overflow:hidden;
+}
