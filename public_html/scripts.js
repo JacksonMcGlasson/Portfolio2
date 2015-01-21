@@ -4,7 +4,7 @@ $("document").ready(function(){
     //binds picture to click and show image function
     $("#showImage").bind("click", showImage);
 });
-// hides image
+// hides halo picture and carousel
 function hideImage() {
     $("#halo").animate({opacity: 0, height: "50px"}, 2000, "linear");
     $("#slides").animate({opacity: 0, height: "50px"}, 2000, "linear");
@@ -13,11 +13,12 @@ function hideImage() {
     $("#indicator").animate({opacity: 0, height: "50px"}, 2000, "linear");
     
 }
-// shows image
+// shows halo picture and carousel
 function showImage() {
     $("#halo").animate({opacity: 100, height: "450px"}, 2000, "linear");
-    $("#slides").animate({opacity: 100, height: "500px"}, 2000, "linear");
-    $("#left").animate({opacity: 100, height: "500px"}, 2000, "linear");
-    $("#right").animate({opacity: 100, height: "500px"}, 2000, "linear");
-    $("#indicator").animate({opacity: 100, height: "500px"}, 2000, "linear");
+    $("#slides").animate({opacity: 100, height: "580px"}, 2000, "linear");
+    $("#left").animate({opacity: 100, height: "580px"}, 2000, "linear");
+    $("#right").animate({opacity: 100, height: "580px"}, 2000, "linear");
+    $("#indicator").animate({opacity: 100, height: "580px"}, 2000, "linear");
 }
+
