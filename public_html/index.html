@@ -29,7 +29,7 @@ and open the template in the editor.
                                 <li><a href="technology.html">Technology</a></li>
                                 <li><a href="projects.html">Projects</a></li> 
                             </ul>
-                            <img class="img-responsive img-circle" src="http://3.bp.blogspot.com/-q5tYyVYICHc/T9Z6kYN-iDI/AAAAAAAAAZA/H4s0RQabxAs/s1600/e32012_halo4_chiefhero2.jpg">
+                            <img id="halo" class="img-responsive img-circle" src="http://3.bp.blogspot.com/-q5tYyVYICHc/T9Z6kYN-iDI/AAAAAAAAAZA/H4s0RQabxAs/s1600/e32012_halo4_chiefhero2.jpg">
                         </div><!--halo picture-->
                     </div>
                     <div class="row">
@@ -41,9 +41,11 @@ and open the template in the editor.
                                 with web sites and games.I have worked with Html 5,CSS,and<br />
                                 Bootstrap. They are used to make and build up web sites.In my spare time I enjoy playing video games and I hope to have a career involving them.</p>
                             <p>Some of my favorite games\/</p>
+                             <button type="button" id="hideImage">Hide Images</button> 
+                             <button type="button" id="showImage">Show Images</button> 
                             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                                 <!-- Indicators -->
-                                <ol class="carousel-indicators">
+                                <ol id="indicators" class="carousel-indicators">
                                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                                     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
@@ -53,7 +55,7 @@ and open the template in the editor.
                                     <li data-target="#carousel-example-generic" data-slide-to="6"></li>
                                 </ol>
                                 <!-- Wrapper for slides -->
-                                <div class="carousel-inner">
+                                <div id="slides" class="carousel-inner">
                                     <div class="item active">
                                         <img class=img-responsive  src="http://nerdtrek.com/wp-content/uploads/2011/08/Skyrim-Questions-and-Answers.jpeg" alt="Skyrim">
                                         <div class="carousel-caption">
@@ -91,10 +93,10 @@ and open the template in the editor.
                                     </div>
                                 </div> 
                                 <!-- Controls -->
-                                <a class="left carousel-control left" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <a id="left" class="left carousel-control left" href="#carousel-example-generic" role="button" data-slide="prev">
                                     <span class="glyphicon glyphicon-chevron-left"></span>
                                 </a>
-                                <a class="right carousel-control right" href="#carousel-example-generic" role="button" data-slide="next">
+                                <a  id="right" class="right carousel-control right" href="#carousel-example-generic" role="button" data-slide="next">
                                     <span class="glyphicon glyphicon-chevron-right"></span>
                                 </a>
                             </div>     
@@ -105,14 +107,6 @@ and open the template in the editor.
                 </div>
             </div> 
         </div>
-        <div id="numbers">
-            <h4>1</h4>
-            <p>I</p>
-            <h4>2</h4>
-            <p>II</p>
-            <h4>3</h4>
-            <p>III</p>
-        </div> 
         <audio autoplay="autoplay" controls="controls"><!--halo music-->
             <source src="Halo.mp3" />    
         </audio> 
