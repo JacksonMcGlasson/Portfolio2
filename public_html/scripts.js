@@ -1,4 +1,4 @@
-$("document").ready(function(){
+$("document").ready(function () {
     //binds button to click and hide image function
     $("#hideImage").bind("click", hideImage);
     //binds button to click and show image function
@@ -11,7 +11,7 @@ function hideImage() {
     $("#left").animate({opacity: 0, height: "50px"}, 2000, "linear");
     $("#right").animate({opacity: 0, height: "50px"}, 2000, "linear");
     $("#indicator").animate({opacity: 0, height: "50px"}, 2000, "linear");
-    
+
 }
 // shows halo picture and carousel
 function showImage() {
