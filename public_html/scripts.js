@@ -1,7 +1,7 @@
 $("document").ready(function(){
-    //binds picture to click and hide image function
+    //binds button to click and hide image function
     $("#hideImage").bind("click", hideImage);
-    //binds picture to click and show image function
+    //binds button to click and show image function
     $("#showImage").bind("click", showImage);
 });
 // hides halo picture and carousel
