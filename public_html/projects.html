@@ -29,44 +29,63 @@ and open the template in the editor.
                         <li><a href="technology.html">Technology</a></li>
                         <li class="active"><a href="projects.html">Projects</a></li> 
                     </ul> 
+                    <div class="dropdown"><!--drop down menu-->
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown">
+                            Projects
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html#portfolio1">Portfolio 1</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html#portfolio2">Portfolio 2</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html#snake">Snake</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html#mario">Mario</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html#blog">Blog</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="technology.html#jquery">Portfolio 3/ JQuery</a></li>
+                        </ul> 
+                    </div>
                 </div>
                 <div class="col-xs-2"></div>
             </div> 
             <div class="row">
-                <h3>Portfolio 1</h3>
+                <h3><a name="portfolio1">Portfolio 1</a></h3>
                 <p> My Portfolio describes me and what im doing.It tells<br/>
                     the technology I am using and the projects I am making.<br />
                     It allows you to know more about me and who I am.It holds<br /> 
                     all my designs and my work with coding.</p>
                 <!-- Portfolio 1 screen shot-->
                 <img class="img-rounded" src="images/screenshot5.png">
-                <h3>Portfolio 2</h3>
+                
+                <h3><a name="portfolio2">Portfolio 2</a></h3>
                 <p> My second Portfolio project is pretty similar to my first.<br />
                     It has pretty much the same information with some additions.<br/>
                     This time i have used bootstrap to make it more responsive and<br />
                     organized.</p>
                 <!-- Portfolio 2 screen shot-->
                 <img class="img-rounded" src="images/screenshot4.png"> 
-                <h3>Snake</h3>
+                
+                <h3><a name="snake">Snake</a></h3>
                 <p> Snake is a game where you play as a snake. You move around the <br />
                     screen eating little food pieces that make your snake grow a piece.<br />
                     The point of the game is to eat as much as you can and try to avoid<br />
                     hitting walls or your own tail.When you hit a wall or your tail you die.</p>
                 <!-- Snake screen shot-->
                 <img class="img-rounded" src="images/snakescreenshot.jpg"> 
-                <h3>Mario</h3>
+                
+                <h3><a name="mario">Mario</a></h3>
                 <p>Mario is a platforming game that almost everyone has heard of. In the <br />
                     game you have to run and jump through levels avoiding enemies and obstacles<br />
                     You can collect power ups to help you.</p>
                 <!-- Mario screen shot-->
                 <img class="img-rounded" src="images/Mario screenshot.png"> 
-                <h3>Blog</h3>
+                
+                <h3><a name="blog">Blog</a></h3>
                 <p>  This a blog to post what i want to post. It uses PHP to create a database <br />
                     of posts that people can view. Users must sign up to post anything.I will most likely<br />
                     use this for updates on my App Academy projects.</p>
                 <!-- Blog screen shot-->
                 <img class="img-rounded" src="images/blog-screenshot.png"> 
-                <h3>Portfolio 3/Jquery </h3>
+                
+                <h3><a name="jquery">Portfolio 3/ JQuery</a></h3>
                 <p>  This project was used to teach us JQuery page to make an improved portfolio <br />
                     website. I put most of the JQuery features on a seperate JQuery page, but I added<br />
                     some features to my Portfolio 2.</p>
